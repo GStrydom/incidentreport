@@ -1,0 +1,59 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KPI - Index</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="{% static 'assets/bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
+    <link rel="stylesheet" href="{% static 'assets/css/Footer-Dark.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/Navigation-Clean.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/Article-Dual-Column.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/styles.css' %}">
+    <script src="{% static 'assets/js/jquery.min.js' %}"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+    {% block header %}
+    {% endblock header %}
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-dark navbar-expand-md bg-dark">
+            <div class="container-fluid"><a class="navbar-brand" href="{% url 'kpi_home_page' %}">Incident Report System</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse"
+                    id="navcol-1">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item" role="presentation"><a class="nav-link text-white" href="{% url 'kpi_leads' %}">EFT Leads</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link text-white" href="{% url 'kpi_teams' %}">Teams</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link text-white" href="{% url 'kpi_help' %}">Help</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container head-container">
+        <div class="row">
+            <div class="col">
+                <h1 class="text-center">Incident Reporting System - SAPREF 2013</h1>
+            </div>
+        </div>
+    </div>
+
+    {% block page_desc %}
+    {% endblock page_desc %}
+
+    <div class="container">
+        {% block buttonblock %}
+        {% endblock buttonblock %}
+    </div>
+    <div class="container">
+        {% block content %}
+        {% endblock content %}
+    </div>
+    <script src="{% static 'assets/bootstrap/js/bootstrap.min.js' %}"></script>
+</body>
+
+</html>

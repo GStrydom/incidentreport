@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block content %}
+	<dl class="row">
+  		<dt class="col-sm-3">Date:</dt>
+  			<dd class="col-sm-9">{{ incident.date }}</dd>
+
+  		<dt class="col-sm-3">IR Number:</dt>
+  			<dd class="col-sm-9">{{ incident.ir_num }}</dd>
+
+  		<dt class="col-sm-3">Company:</dt>
+  			<dd class="col-sm-9">{{ incident.company }}</dd>
+
+  		<dt class="col-sm-3">EFT Lead:</dt>
+  			<dd class="col-sm-9">{{ incident.eft_lead }}</dd>
+
+  		<dt class="col-sm-3">Team Name:</dt>
+  			<dd class="col-sm-9">{{ incident.team_name }}</dd>
+
+  		<dt class="col-sm-3">Incidnet:</dt>
+  			<dd class="col-sm-9">{{ incident.incident }}</dd>
+
+  		<dt class="col-sm-3">Hours Deducted:</dt>
+  			<dd class="col-sm-9">{{ incident.hours_deducted }}</dd>
+
+  		<dt class="col-sm-3">Reportable:</dt>
+  			<dd class="col-sm-9">{{ incident.reportable }}</dd>
+
+  		<dt class="col-sm-3">Reason:</dt>
+  			<dd class="col-sm-9">{{ incident.reason }}</dd>
+	</dl>
+{% endblock content %}

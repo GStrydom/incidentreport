@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+
+{% block header %}
+    <script>
+        $(document).ready(function () {
+            $('#edit-record').click(function () {
+                $('#update-button').prop("disabled", !$("#edit-record").prop("checked"));
+                $('#delete-button').prop("disabled", !$("#edit-record").prop("checked"));
+            });
+
+            $("#delete-button").click(function() {
+                let con = confirm("Are you sure you wish to delete these records? This cannot be undone.");
+                if (con == true) {
+                    alert("Records have been deleted successfully.");
+                } else {
+
+                } 
+            });
+
+            $("#update-button").click(function() {
+                 
+            })
+        });
+    </script>
+{% endblock header %}
+
+{% block page_desc %}
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p>Description for Incident Reporting System.</p>
+            </div>
+        </div>
+    </div>
+{% endblock page_desc %}
+
+{% block buttonblock %}
+    <div class="row">
+        <div class="col but-col"><button class="btn btn-primary btn-sm" type="button">Create</button></div>
+        <div class="col but-col"><button class="btn btn-primary btn-sm" type="button" id="update-button" disabled>Update</button></div>
+        <div class="col but-col"><button class="btn btn-primary btn-sm" type="button" id="delete-button" disabled>Delete</button></div>
+    </div>
+{% endblock buttonblock %}
+
+{% block content %}
+     <div class="row">
+        <div class="col">
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Date</th>
+                            <th>IR Number</th>
+                            <th>Company</th>
+                            <th>EFT Lead</th>
+                            <th>Team</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for incident in incidents %}
+                            <tr>
+                                <td><input type="checkbox" name="edit-record" id="edit-record"></td>
+                                <td id="date_cell">{{ incident.date }}</td>
+                                <td><a href="{% url 'kpi_detail' incident.id %}">{{ incident.ir_num }}</a></td>
+                                <td><a href="{% url 'kpi_company' incident.company.id %}">{{ incident.company }}</a></td>
+                                <td><a href="{% url 'kpi_eftdetail' incident.eft_lead.id %}">{{ incident.eft_lead }}</a></td>
+                                <td><a href="{% url 'kpi_team' incident.team_name.id %}">{{ incident.team_name }}</a></td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+{% endblock content %}

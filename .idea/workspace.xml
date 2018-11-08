@@ -1,0 +1,1038 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2e14373a-f154-445b-8a14-10538288ed4d" name="Default" comment="" />
+    <ignored path="gregweb.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DatabaseView">
+    <option name="FLATTEN" value="false" />
+    <option name="GROUP_BY_TYPE" value="true" />
+    <option name="SORT_CHILDREN" value="false" />
+    <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="PostgreSQL - gregweb@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="gregweb.public" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="PostgreSQL - gregweb@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="gregweb" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="eftteam.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kpi/templates/eftteam.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="451">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kpi/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.6153846" vertical-offset="255" max-vertical-offset="1088">
+              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/base/views.py" />
+        <option value="$PROJECT_DIR$/templates/base/index.html" />
+        <option value="$PROJECT_DIR$/templates/projects/index.html" />
+        <option value="$PROJECT_DIR$/base/urls.py" />
+        <option value="$PROJECT_DIR$/templates/base/incident_report.html" />
+        <option value="$PROJECT_DIR$/templates/kpi/update.html" />
+        <option value="$PROJECT_DIR$/kpi/forms.py" />
+        <option value="$PROJECT_DIR$/templates/kpi/create.html" />
+        <option value="$PROJECT_DIR$/templates/kpi/list.html" />
+        <option value="$PROJECT_DIR$/templates/kpi/index.html" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/gregweb/urls.py" />
+        <option value="$PROJECT_DIR$/kpi/templates/create.html" />
+        <option value="$PROJECT_DIR$/kpi/templates/help.html" />
+        <option value="$PROJECT_DIR$/kpi/templates/eft_lead.html" />
+        <option value="$PROJECT_DIR$/_temp/eft_lead.html" />
+        <option value="$PROJECT_DIR$/kpi/templates/eftleads.html" />
+        <option value="$PROJECT_DIR$/kpi/templates/eftteams.html" />
+        <option value="$PROJECT_DIR$/kpi/static/assets/css/styles.css" />
+        <option value="$PROJECT_DIR$/_temp/eft_company.html" />
+        <option value="$PROJECT_DIR$/kpi/urls.py" />
+        <option value="$PROJECT_DIR$/gregweb/settings.py" />
+        <option value="$PROJECT_DIR$/kpi/admin.py" />
+        <option value="$PROJECT_DIR$/kpi/templates/base.html" />
+        <option value="$PROJECT_DIR$/kpi/templates/index.html" />
+        <option value="$PROJECT_DIR$/kpi/models.py" />
+        <option value="$PROJECT_DIR$/kpi/views.py" />
+        <option value="$PROJECT_DIR$/kpi/templates/eft_company.html" />
+        <option value="$PROJECT_DIR$/kpi/templates/eftlead.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1374" />
+    <option name="height" value="776" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gregweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gregweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gregweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gregweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gregweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kpi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gregweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gregweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kpi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="preferences.lookFeel" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/db.sqlite3" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/sethan/PycharmProjects/gregweb/kpi/templates/eftteam.html" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings />
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sethan\PycharmProjects\gregweb\kpi\static\assets\css" />
+      <recent name="C:\Users\sethan\PycharmProjects\gregweb\_temp" />
+      <recent name="C:\Users\sethan\PycharmProjects\gregweb\kpi\static\assets\img" />
+      <recent name="C:\Users\sethan\PycharmProjects\gregweb\kpi\templates" />
+      <recent name="C:\Users\sethan\PycharmProjects\gregweb\kpi\static\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sethan\PycharmProjects\gregweb\kpi\static\assets\img\profile_pics" />
+      <recent name="C:\Users\sethan\PycharmProjects\gregweb\_temp" />
+      <recent name="C:\Users\sethan\PycharmProjects\gregweb\kpi\templates" />
+      <recent name="C:\Users\sethan\PycharmProjects\gregweb\kpi" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django server.gregweb">
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="gregweb" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="gregweb" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="gregweb" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="gregweb" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="gregweb" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="gregweb" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="gregweb" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="gregweb" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="gregweb" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="gregweb" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.database.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
+    <configuration default="false" name="gregweb" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="gregweb.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="gregweb" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Django server.gregweb" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e14373a-f154-445b-8a14-10538288ed4d" name="Default" comment="" />
+      <created>1540566408147</created>
+      <option name="number" value="Default" />
+      <updated>1540566408147</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-4" y="-4" width="1374" height="776" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32826748" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23556231" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16767372" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21827795" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.168429" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14803626" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/kpi/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="374">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gregweb/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1683">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="204">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="204">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kpi/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="680">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gregweb/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gregweb/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="204">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="204">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kpi/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="680">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gregweb/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="459">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gregweb/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="901" max-vertical-offset="1666">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="204">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kpi/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="680">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gregweb/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="459">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gregweb/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2193">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gregweb/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="442">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gregweb/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2193">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gregweb/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kpi/static/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="611">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kpi/static/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="611">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05448718" vertical-offset="0" max-vertical-offset="624">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.02724359" vertical-offset="0" max-vertical-offset="624">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="624">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="624">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gregweb/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08173077" vertical-offset="0" max-vertical-offset="624">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://db-console:/7e851a63/94f08de9-2de4-4a81-aa13-cd280150c41e/">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="624">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kpi/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kpi/templates/help.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.036796536" vertical-offset="0" max-vertical-offset="462">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kpi/static/assets/css/Article-Clean.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/94f08de9-2de4-4a81-aa13-cd280150c41e">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>94f08de9-2de4-4a81-aa13-cd280150c41e</OriginalElement>
+          <nodes>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_constraint</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_namespace</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_default_acl</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_replication_slots</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_timezone_names</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_stat_archiver</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_ts_config_map</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_largeobject_metadata</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_depend</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_inherits</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.public.kpi_kpiincidentreport</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_statio_all_indexes</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_opclass</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_statio_user_indexes</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_pltemplate</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_user</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_statio_user_sequences</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.public.django_content_type</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_attribute</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.public.auth_user</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_attrdef</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_db_role_setting</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_foreign_server</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_statio_sys_sequences</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_shadow</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_statio_all_sequences</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_enum</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_stat_replication</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.public.django_session</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_stats</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_prepared_statements</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_event_trigger</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_shdescription</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_foreign_table</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_operator</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_index</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_amop</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_class</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_range</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.public.auth_group</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_statio_user_tables</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_description</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_stat_xact_sys_tables</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_trigger</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.public.auth_group_permissions</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_ts_parser</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.public.django_admin_log</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_foreign_data_wrapper</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_tables</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_ts_template</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_conversion</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_stat_xact_all_tables</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_cast</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_largeobject</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_type</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_aggregate</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_matviews</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_user_mappings</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.public.auth_permission</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_am</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_statio_sys_indexes</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_statistic</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_ts_dict</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_authid</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_proc</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_ts_config</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_stat_activity</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_stat_user_indexes</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_database</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_stat_xact_user_tables</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_locks</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_stat_bgwriter</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.public.auth_user_user_permissions</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_shseclabel</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_stat_user_tables</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_stat_database_conflicts</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_settings</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_available_extensions</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.public.django_migrations</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_statio_sys_tables</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_shdepend</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_opfamily</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_amproc</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_user_mapping</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_views</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_rewrite</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_seclabels</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_collation</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_stat_sys_indexes</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_statio_all_tables</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_roles</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_prepared_xacts</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_stat_all_tables</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_cursors</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_stat_all_indexes</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_indexes</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_language</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_stat_database</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_stat_user_functions</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_rules</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_tablespace</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_stat_xact_user_functions</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_available_extension_versions</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.public.auth_user_groups</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_timezone_abbrevs</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_auth_members</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_group</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_stat_sys_tables</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_seclabel</node>
+            <node x="" y="">94f08de9-2de4-4a81-aa13-cd280150c41e.table:gregweb.pg_catalog.pg_extension</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.12040133779264214" x="1766.0" y="1784.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Columns</Category>
+            <Category>Key columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_temp/eft_lead.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.2905983" vertical-offset="408" max-vertical-offset="1105">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python34/Lib/site-packages/django/db/models/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3326316" vertical-offset="9277" max-vertical-offset="30379">
+          <caret line="594" column="8" selection-start-line="594" selection-start-column="8" selection-end-line="594" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kpi/templates/incident_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37861916" vertical-offset="0" max-vertical-offset="629">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kpi/templates/eftleads.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.028052805" vertical-offset="0" max-vertical-offset="606">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kpi/templates/eftteams.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.028052805" vertical-offset="0" max-vertical-offset="606">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kpi/static/assets/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.107368425" vertical-offset="0" max-vertical-offset="475">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gregweb/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3227848" vertical-offset="663" max-vertical-offset="1768">
+          <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kpi/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26898733" vertical-offset="0" max-vertical-offset="632">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kpi/static/assets/css/Article-Dual-Column.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2023">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kpi/static/assets/img/GB-Logo-140.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_temp/eft_company.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23394495" vertical-offset="459" max-vertical-offset="1105">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kpi/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="596" max-vertical-offset="1139">
+          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kpi/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <caret line="7" column="77" selection-start-line="7" selection-start-column="77" selection-end-line="7" selection-end-column="77" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kpi/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3846154" vertical-offset="928" max-vertical-offset="1377">
+          <caret line="54" column="44" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kpi/templates/eft_company.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2729357" vertical-offset="108" max-vertical-offset="833">
+          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kpi/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21263158" vertical-offset="341" max-vertical-offset="816">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kpi/templates/eftlead.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65981734" vertical-offset="153" max-vertical-offset="731">
+          <caret line="26" column="85" selection-start-line="26" selection-start-column="85" selection-end-line="26" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kpi/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6153846" vertical-offset="255" max-vertical-offset="1088">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kpi/templates/eftteam.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="475">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
