@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block header %}
+{% endblock header %}
+
+
+{% block content %}
+    <div class="article-dual-column">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <div class="intro">
+                        <h1 class="text-center">{{ eftteam.name }}</h1><img class="img-fluid" src="{% static 'assets/img/defaultprofile.png' %}">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <dl>
+                        <dt>EFT LEADS</dt>
+                            <dd>
+                                {% for eftlead in eftleads %}
+                                    <a href="{% url 'kpi_eftdetail' eftlead.id %}">{{ eftlead }}</a>
+                                {% endfor %}
+                            </dd>
+                        <dt>Incidents</dt>
+                            <dd>
+                                {% for incident in incidents %}
+                                    <a href="{% url 'kpi_detail' incident.id %}">{{ incident.ir_num }}</a>
+                                {% endfor %}
+                            </dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}

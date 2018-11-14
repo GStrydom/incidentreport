@@ -30,7 +30,7 @@ class KPITeam(models.Model):
 
 
 class KPIIncidentReport(models.Model):
-    date            = models.DateTimeField(default=datetime.datetime.now())
+    date            = models.CharField(max_length=20)
     ir_num          = models.CharField(max_length=10)
     company         = models.ForeignKey(KPICompany)
     eft_lead        = models.ForeignKey(KPILead)

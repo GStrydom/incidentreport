@@ -29,4 +29,13 @@
   		<dt class="col-sm-3">Reason:</dt>
   			<dd class="col-sm-9">{{ incident.reason }}</dd>
 	</dl>
+
+  <div class="row top-buffer-fifteen">
+      <div class="col">
+        <a href="{% url 'kpi_update' incident.id %}"><button class="btn btn-primary btn-sm" type="button">Update</button></a>
+      </div>
+      <div class="col">
+        <a href="{% url 'kpi_delete' incident.id %}"><button class="btn btn-primary btn-sm" type="button">Delete</button></a>
+      </div>
+  </div>
 {% endblock content %}

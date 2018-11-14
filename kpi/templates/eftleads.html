@@ -1,1 +1,27 @@
 {% extends 'base.html' %}
+
+
+{% block content %}
+    <div class="features-boxed">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">EFT Leads</h2>
+                <p class="text-center">Below you can find a list of the EFT Leads listed according to their company.&nbsp;</p>
+            </div>
+            <div class="row justify-content-center features">
+                {% for company in companies %}
+                    <div class="col-sm-6 col-md-5 col-lg-4 item">
+                        <div class="box">
+                            <h3 class="name"><a href="#">{{ company }}</a></h3>
+                            {% for lead in leads %}
+                                {% if lead.company == company %}
+                                    <p class="description"><a href="#">{{ lead }}</a></p>
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+{% endblock content %}

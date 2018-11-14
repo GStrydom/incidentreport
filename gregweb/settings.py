@@ -23,6 +23,7 @@ INSTALLED_APPS = [
     'base.apps.BaseConfig',
     'projects.apps.ProjectsConfig',
     'kpi.apps.KpiConfig',
+    'widget_tweaks',
 ]
 
 MIDDLEWARE = [
@@ -55,16 +56,24 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'gregweb.wsgi.application'
 
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'gregwebv3',
-        'USER': 'postgres',
-        'PASSWORD': 'deathenan81',
-        'HOST': 'localhost',
-        'PORT': '5432'
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'mydatabase',
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'gregwebv3',
+#         'USER': 'postgres',
+#         'PASSWORD': 'deathenan81',
+#         'HOST': 'localhost',
+#         'PORT': '5432'
+#     }
+# }
 
 AUTH_PASSWORD_VALIDATORS = [
     {

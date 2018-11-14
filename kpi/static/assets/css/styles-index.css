@@ -1,0 +1,25 @@
+#date_cell {
+    color: blue;
+}
+
+.top-buffer-ten {
+	margin-top: 10px;
+}
+
+.top-buffer-fifteen {
+	margin-top: 15px;
+}
+
+.top-buffer-twenty {
+	margin-top: 20px;
+}
+
+#delete-but {
+	width: 24px;
+	height: 24px;
+}
+
+#update-but {
+	width: 24px;
+	height: 24px;
+}
