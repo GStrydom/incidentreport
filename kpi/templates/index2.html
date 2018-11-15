@@ -1,0 +1,90 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kpi</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="assets/css/Article-Clean.css">
+    <link rel="stylesheet" href="assets/css/Article-Dual-Column.css">
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Features-Boxed.css">
+    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body style="background-color:rgb(255,255,255);">
+    <nav class="navbar navbar-dark navbar-expand-md bg-dark">
+        <div class="container-fluid"><a class="navbar-brand" href="#"><i class="fa fa-globe"></i>&nbsp; Incident Report System</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link text-white" href="#"><i class="fa fa-file-o"></i>&nbsp; Incidents</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link text-white" href="#"><i class="fa fa-user"></i>&nbsp; EFT Leads</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link text-white" href="#"><i class="fa fa-users"></i>&nbsp; Teams</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link text-white" href="#"><i class="fa fa-info-circle"></i>&nbsp; Help</a></li>
+                </ul>
+        </div>
+        </div>
+    </nav>
+    <div class="container-fluid" style="background-color:#fefcfc;">
+        <div class="row top-buffer-ten">
+            <div class="col">
+                <h1 class="text-center">EFT Incident Report System</h1>
+            </div>
+        </div>
+        <div class="row top-buffer-fifteen">
+            <div class="col"><button class="btn btn-primary btn-sm" type="button">Create</button></div>
+        </div>
+        <div class="row top-buffer-fifteen">
+            <div class="col">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>IR Number</th>
+                                <th>Company</th>
+                                <th>EFT Lead</th>
+                                <th>EFT Team</th>
+                                <th>Incident</th>
+                                <th>Reportable</th>
+                                <th>Reason</th>
+                                <th>Update</th>
+                                <th>Delete</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Cell 1</td>
+                                <td>Cell 2</td>
+                                <td><a href="#">Link</a></td>
+                                <td>Text</td>
+                                <td>Text</td>
+                                <td>Text</td>
+                                <td>Text</td>
+                                <td>Text</td>
+                                <td><div>
+    <input type="image" src="">
+</div></td>
+                                <td><div>
+    <input type="image" src="{% static 'assets/img/incident-delete.png' %}">
+</div></td>
+                            </tr>
+                            <tr></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
