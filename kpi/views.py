@@ -1,14 +1,6 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from .models import KPIIncidentReport, KPILead, KPITeam, KPICompany
-from datatableview.views import XEditableDatatableView
 from .forms import IncidentForm
-
-
-class IncidentReportView(XEditableDatatableView):
-    model = KPIIncidentReport
-    datatable_options = {
-        
-    }
 
 
 def kpi_home_page(request):
