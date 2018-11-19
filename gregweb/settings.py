@@ -25,7 +25,6 @@ INSTALLED_APPS = [
     'base.apps.BaseConfig',
     'projects.apps.ProjectsConfig',
     'kpi.apps.KpiConfig',
-    'widget_tweaks',
     'smart_selects'
 ]
 
