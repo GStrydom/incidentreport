@@ -1,4 +1,4 @@
-#date_cell {
+.blue_cell {
     color: blue;
 }
 
@@ -22,4 +22,9 @@
 #update-but {
 	width: 24px;
 	height: 24px;
+}
+
+img {
+    display: block;
+    margin: auto;
 }

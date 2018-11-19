@@ -1,4 +1,6 @@
 from django.db import models
+from smart_selects.db_fields import ChainedForeignKey
+
 
 import datetime
 
@@ -33,12 +35,26 @@ class KPIIncidentReport(models.Model):
     date            = models.CharField(max_length=20)
     ir_num          = models.CharField(max_length=10)
     company         = models.ForeignKey(KPICompany)
-    eft_lead        = models.ForeignKey(KPILead)
-    team_name       = models.ForeignKey(KPITeam)
+    eft_lead        = ChainedForeignKey(
+                        KPILead,
+                        chained_field='company',
+                        chained_model_field='company',
+                        show_all=True,
+                        auto_choose=True,
+                        sort=True
+                    )
+    team_name       = ChainedForeignKey(
+                        KPITeam,
+                        chained_field='eft_lead',
+                        chained_model_field='eft_lead',
+                        show_all=True,
+                        auto_choose=True,
+                        sort=True
+                    )
     incident        = models.CharField(max_length=10)
     description     = models.CharField(max_length=255)
     hours_deducted  = models.IntegerField()
-    reportable      = models.BooleanField(default=False)
+    reportable      = models.NullBooleanField(null=True)
     reason          = models.CharField(max_length=50)
 
     def __str__(self):

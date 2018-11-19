@@ -9,6 +9,8 @@ SECRET_KEY = 'q#-jd#zkg7+#2-=6pjy(%vg-%=sh%c1*c%ypu&uxz0-4cm-9^p'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+USE_DJANGO_JQUERY = True
+
 ALLOWED_HOSTS = []
 
 # Application definition
@@ -24,6 +26,7 @@ INSTALLED_APPS = [
     'projects.apps.ProjectsConfig',
     'kpi.apps.KpiConfig',
     'widget_tweaks',
+    'smart_selects'
 ]
 
 MIDDLEWARE = [
@@ -60,9 +63,20 @@ WSGI_APPLICATION = 'gregweb.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'mydatabase',
+        'NAME': 'mydatabase'
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'gregweb',
+#         'HOST': 'localhost',
+#         'PORT': '',
+#         'USERNAME': 'root',
+#         'PASSWORD': 'perfection081*'
+#     }
+# }
 
 # DATABASES = {
 #     'default': {

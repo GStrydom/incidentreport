@@ -12,10 +12,10 @@
                 {% for company in companies %}
                     <div class="col-sm-6 col-md-5 col-lg-4 item">
                         <div class="box">
-                            <h3 class="name"><a href="#">{{ company }}</a></h3>
+                            <h3 class="name"><a href="{% url 'kpi_company' company.id %}">{{ company }}</a></h3>
                             {% for team in teams %}
                                 {% if team.company == company %}
-                                    <p class="description"><a href="#">{{ team }}</a></p>
+                                    <p class="description"><a href="{% url 'kpi_team' team.id %}">{{ team }}</a></p>
                                 {% endif %}
                             {% endfor %}
                         </div>

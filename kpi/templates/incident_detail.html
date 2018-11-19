@@ -1,7 +1,30 @@
 {% extends 'base.html' %}
 
+{% block header %}
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('$del-button').click(function(e) {
+                e.preventDefault();
+                alert('Are you sure you want to delete this item? This cannot be undone.');
+            })
+        })
+    </script>
+{% endblock header %}
+
 {% block content %}
-	<dl class="row">
+     <div class="row">
+        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+            <a href="{% url 'kpi_update' incident.id %}"><button class="btn btn-primary btn-sm" type="button">Update</button></a>
+        </div>
+        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+            <a href="{% url 'kpi_delete' incident.id %}" id="del-button"><button class="btn btn-primary btn-sm" type="button">Delete</button></a>
+        </div>
+        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+            <a href="{% url 'kpi_export' incident.id %}"><button class="btn btn-primary btn-sm" type="button">Export</button></a>
+        </div>
+    </div>
+
+	<dl class="row  top-buffer-fifteen">
   		<dt class="col-sm-3">Date:</dt>
   			<dd class="col-sm-9">{{ incident.date }}</dd>
 
@@ -29,13 +52,4 @@
   		<dt class="col-sm-3">Reason:</dt>
   			<dd class="col-sm-9">{{ incident.reason }}</dd>
 	</dl>
-
-  <div class="row top-buffer-fifteen">
-      <div class="col">
-        <a href="{% url 'kpi_update' incident.id %}"><button class="btn btn-primary btn-sm" type="button">Update</button></a>
-      </div>
-      <div class="col">
-        <a href="{% url 'kpi_delete' incident.id %}"><button class="btn btn-primary btn-sm" type="button">Delete</button></a>
-      </div>
-  </div>
 {% endblock content %}

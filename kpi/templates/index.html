@@ -29,12 +29,12 @@
             <tbody>
                 {% for incident in incidents %}
                     <tr>
-                        <td id="date_cell">{{ incident.date }}</td>
+                        <td class="blue_cell">{{ incident.date }}</td>
                         <td><a href="{% url 'kpi_detail' incident.id %}">{{ incident.ir_num }}</a></td>
                         <td><a href="{% url 'kpi_company' incident.company.id %}">{{ incident.company }}</a></td>
                         <td><a href="{% url 'kpi_eftdetail' incident.eft_lead.id %}">{{ incident.eft_lead }}</a></td>
                         <td><a href="{% url 'kpi_team' incident.team_name.id %}">{{ incident.team_name }}</a></td>
-                        <td><a href="#">{{ incident.incident }}</a></td>
+                        <td class="blue_cell">{{ incident.incident }}</td>
                     </tr>
                 {% endfor %}
             </tbody>
