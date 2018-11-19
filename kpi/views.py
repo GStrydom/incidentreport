@@ -44,7 +44,7 @@ def eftlead_detail(request, eftlead_id):
 def eftteam_detail(request, eftteam_id):
     context = dict()
     context['eftteam'] = KPITeam.objects.get(pk=eftteam_id)
-    # context['eftleads'] = KPILead.objects.filter()!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    context['eftleads'] = KPILead.objects.filter(kpiteam__id=eftteam_id)
     context['incidents'] = KPIIncidentReport.objects.filter(team_name__id=eftteam_id)
     return render(request, 'templates/eftteam.html', context)
 

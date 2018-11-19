@@ -39,7 +39,7 @@ class KPIIncidentReport(models.Model):
                         KPILead,
                         chained_field='company',
                         chained_model_field='company',
-                        show_all=True,
+                        show_all=False,
                         auto_choose=True,
                         sort=True
                     )
@@ -47,7 +47,7 @@ class KPIIncidentReport(models.Model):
                         KPITeam,
                         chained_field='eft_lead',
                         chained_model_field='eft_lead',
-                        show_all=True,
+                        show_all=False,
                         auto_choose=True,
                         sort=True
                     )
