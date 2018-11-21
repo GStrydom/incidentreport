@@ -1,26 +1,27 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from .models import KPIIncidentReport, KPILead, KPITeam, KPICompany
 from .forms import IReportForm
-from django.contrib.auth import authenticate, login
-from django.template.context_processors import csrf
-from django.template import RequestContext
 from django.contrib.auth.decorators import login_required
 
 import openpyxl
+import datetime
 
 
+@login_required(login_url='/')
 def kpi_home_page(request):
     context = dict()
     context['incidents'] = KPIIncidentReport.objects.all()
     return render(request, 'templates/index.html', context)
 
 
+@login_required(login_url='/')
 def incident_detail(request, incident_id):
     context = dict()
     context['incident'] = KPIIncidentReport.objects.get(pk=incident_id)
     return render(request, 'templates/incident_detail.html', context)
 
 
+@login_required(login_url='/')
 def kpi_leads(request):
     context = dict()
     context['companies'] = KPICompany.objects.all()
@@ -28,6 +29,7 @@ def kpi_leads(request):
     return render(request, 'templates/eftleads.html', context)
 
 
+@login_required(login_url='/')
 def kpi_teams(request):
     context = dict()
     context['companies'] = KPICompany.objects.all()
@@ -35,6 +37,7 @@ def kpi_teams(request):
     return render(request, 'templates/eftteams.html', context)
 
 
+@login_required(login_url='/')
 def eftlead_detail(request, eftlead_id):
     context = dict()
     context['eftlead'] = KPILead.objects.get(pk=eftlead_id)
@@ -45,6 +48,7 @@ def eftlead_detail(request, eftlead_id):
     return render(request, 'templates/eftlead.html', context)
 
 
+@login_required(login_url='/')
 def eftteam_detail(request, eftteam_id):
     context = dict()
     context['eftteam'] = KPITeam.objects.get(pk=eftteam_id)
@@ -53,6 +57,7 @@ def eftteam_detail(request, eftteam_id):
     return render(request, 'templates/eftteam.html', context)
 
 
+@login_required(login_url='/')
 def kpi_company(request, company_id):
     context = dict()
     context['company'] = KPITeam.objects.get(pk=company_id)
@@ -62,6 +67,7 @@ def kpi_company(request, company_id):
     return render(request, 'templates/eft_company.html', context)
 
 
+@login_required(login_url='/')
 def kpi_create(request):
     if request.method == "POST":
         form = IReportForm(request.POST)
@@ -86,6 +92,7 @@ def kpi_create(request):
     return render(request, 'templates/eftcreate.html', {'form': form})
 
 
+@login_required(login_url='/')
 def kpi_update(request, incident_id):
     incident = get_object_or_404(KPIIncidentReport, pk=incident_id)
     form = IReportForm(request.POST or None, instance=incident)
@@ -93,29 +100,40 @@ def kpi_update(request, incident_id):
         instance = form.save(commit=False)
         instance.save()
         return redirect('kpi_home_page')
-    return render(request, 'templates/eftcreate.html', {'form':form})
+    return render(request, 'templates/eftcreate.html', {'form': form})
 
 
+@login_required(login_url='/')
 def kpi_export(request, incident_id):
-    context = dict()
     incident = get_object_or_404(KPIIncidentReport, pk=incident_id)
     wb = openpyxl.load_workbook("Incident Report.xlsx")
     ws = wb.get_sheet_by_name("Sheet1")
-    ws.cell(row=1, column=2).value = incident.ir_num
+    ws.cell(row=1, column=1).value = "Incident Report " + incident.ir_num
+    ws.cell(row=3, column=5).value = incident.date
+    ws.cell(row=4, column=5).value = incident.ir_num
+    ws.cell(row=5, column=5).value = incident.company.name
+    ws.cell(row=6, column=5).value = incident.eft_lead.name
+    ws.cell(row=7, column=5).value = incident.team_name.name
+    ws.cell(row=8, column=5).value = incident.hours_deducted
+    ws.cell(row=9, column=5).value = incident.reportable
+    ws.cell(row=10, column=5).value = incident.reason
+    ws.cell(row=12, column=5).value = datetime.datetime.now()
+    ws.cell(row=13, column=5).value = ''
 
     file_name = "Incident Report " + incident.ir_num + ".xlsx"
 
     wb.save(file_name)
-
     return redirect('kpi_home_page')
 
 
+@login_required(login_url='/')
 def kpi_delete(request, incident_id):
     incident = get_object_or_404(KPIIncidentReport, pk=incident_id)    
     incident.delete()
     return redirect('kpi_home_page')
 
 
+@login_required(login_url='/')
 def kpi_help(request):
     context = dict()
     return render(request, 'templates/help.html', context)

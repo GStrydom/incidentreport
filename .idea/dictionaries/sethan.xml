@@ -12,6 +12,7 @@
       <w>datatables</w>
       <w>deathenan</w>
       <w>dropdown</w>
+      <w>eftcreate</w>
       <w>eftdetail</w>
       <w>eftlead</w>
       <w>eftleads</w>
@@ -48,6 +49,7 @@
       <w>vehicula</w>
       <w>vfew</w>
       <w>viewport</w>
+      <w>xlsx</w>
     </words>
   </dictionary>
 </component>
