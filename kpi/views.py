@@ -1,6 +1,10 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from .models import KPIIncidentReport, KPILead, KPITeam, KPICompany
 from .forms import IReportForm
+from django.contrib.auth import authenticate, login
+from django.template.context_processors import csrf
+from django.template import RequestContext
+from django.contrib.auth.decorators import login_required
 
 import openpyxl
 

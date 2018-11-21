@@ -6,13 +6,12 @@
         <option name="rootFolder" value="$MODULE_DIR$" />
         <option name="settingsModule" value="gregweb/settings.py" />
         <option name="manageScript" value="manage.py" />
-        <option name="environment" value="&lt;map/&gt;" />
       </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
-    <orderEntry type="jdk" jdkName="Python 3.4.0 (C:\Python34\python.exe)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.5.3 (/usr/bin/python3.5)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="jquery.dataTables" level="application" />
   </component>
@@ -25,3 +24,4 @@
     </option>
   </component>
 </module>
+

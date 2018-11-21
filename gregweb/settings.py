@@ -59,6 +59,18 @@ TEMPLATES = [
 WSGI_APPLICATION = 'gregweb.wsgi.application'
 
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'Sethan$gregweb',
+#         'HOST': 'Sethan.mysql.pythonanywhere-services.com',
+#         'PORT': '3306',
+#         'USERNAME': 'Sethan',
+#         'PASSWORD': 'perfection081*'
+#     }
+# }
+
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
@@ -118,3 +130,5 @@ STATIC_URL = '/static/'
 TEMPLATE_DIRS = (
     os.path.join(BASE_DIR,  'templates'),
 )
+
+LOGIN_REDIRECT_URL = '/kpi'
