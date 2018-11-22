@@ -2,7 +2,7 @@
 {% load static %}
 
 {% block header %}
-    <link rel="stylesheet" href="{% static 'assets/css/Article-Clean.css' %}">
+    
 {% endblock header %}
 
 
@@ -13,7 +13,7 @@
                 <div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
                     <div class="intro">
                         <h1 class="text-center">{{ eftlead.name }}</h1>
-                        <p class="text-center">{{ eftlead.position }}<span class="date">{{ eftlead.company }}</span></p><img class="img-fluid justify-content-center" src="{{ eft_lead.profile_pic.url }}" width="200" height="200">
+                        <p class="text-center">{{ eftlead.position }}<span class="date">{{ eftlead.company }}</span></p><img class="img-fluid justify-content-center" src="{{ image_url }}" width="150" height="150">
                         <dl class="row" id="eft-info">
                             <dt class="col-sm-3">Teams:</dt>
                                 <dd class="col-sm-9">

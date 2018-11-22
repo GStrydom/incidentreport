@@ -1,9 +1,3 @@
 1) Get profile images to display correctly from db
 
-2) Implement update incident fucntionality
-
-3) Get EFT Leads to display in team detail page
-
 4) Block delete of incident to check if user really wants to delete
-
-5) 

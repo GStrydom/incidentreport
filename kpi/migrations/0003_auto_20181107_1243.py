@@ -21,7 +21,7 @@ class Migration(migrations.Migration):
                 ('position', models.CharField(max_length=255)),
                 ('company', models.CharField(max_length=100)),
                 ('teams', models.CharField(max_length=255)),
-                ('profile_pic', models.ImageField(upload_to='static/assets/img/profile_pics')),
+                ('profile_pic', models.ImageField(upload_to='static/assets/img/eftlead')),
                 ('incidents', models.IntegerField()),
             ],
         ),

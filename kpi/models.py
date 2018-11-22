@@ -16,7 +16,7 @@ class KPILead(models.Model):
     name            = models.CharField(max_length=255)
     position        = models.CharField(max_length=255)
     company         = models.ForeignKey(KPICompany)
-    profile_pic     = models.ImageField(upload_to='static/assets/img/profile_pics')
+    profile_pic     = models.ImageField(upload_to='profile_pics/')
 
     def __str__(self):
         return self.name

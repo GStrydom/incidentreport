@@ -44,7 +44,6 @@ def eftlead_detail(request, eftlead_id):
     context['team_names'] = KPITeam.objects.filter(eft_lead__id=eftlead_id)
     context['incidents'] = KPIIncidentReport.objects.filter(eft_lead__id=eftlead_id)
     context['image_url'] = context['eftlead'].profile_pic.url
-    print(context['image_url'])
     return render(request, 'templates/eftlead.html', context)
 
 

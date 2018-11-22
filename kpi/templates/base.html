@@ -30,7 +30,7 @@
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item" role="presentation"><a class="nav-link text-white" href="{% url 'kpi_home_page' %}"><i class="fa fa-file-o"></i>&nbsp; Incidents</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link text-white" href="{% url 'kpi_leads' %}"><i class="fa fa-user"></i>&nbsp; EFT Leads</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link text-white" href="{% url 'kpi_leads' %}"><i class="fa fa-user"></i>&nbsp; Leads</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link text-white" href="{% url 'kpi_teams' %}"><i class="fa fa-users"></i>&nbsp; Teams</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link text-white" href="{% url 'kpi_help' %}"><i class="fa fa-info-circle"></i>&nbsp; Help</a></li>
 
@@ -50,7 +50,7 @@
         <div class="row top-buffer-fifteen">
             <div class="col">{% block buttons %}{% endblock buttons %}</div>
         </div>
-        <div class="row top-buffer-fifteen">
+        <div class="row ">
             <div class="col">
                 {% block content %}
                 {% endblock content %}
