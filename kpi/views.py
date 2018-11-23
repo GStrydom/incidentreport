@@ -64,7 +64,7 @@ def kpi_company(request, company_id):
     context['eftleads'] = KPILead.objects.filter(company__id=company_id)
     context['teams'] = KPITeam.objects.filter(company__id=company_id)
     context['incidents'] = KPIIncidentReport.objects.filter(company__id=company_id)
-    context['company_picture'] = context['company'].profile_pic.url
+    context['company_picture'] = context['company'].company_pic.url
     return render(request, 'templates/eft_company.html', context)
 
 
