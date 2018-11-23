@@ -5,12 +5,59 @@
     <script>
         $(document).ready(function () {
             $('#incident-table').DataTable();
+            var introguide = introJs();
+
+            introguide.setOptions({
+                steps: [
+                    {
+                      element: '#create-but',
+                      intro: 'Click here to create a new Incident Report.',
+                      position: 'bottom'
+                    },
+                    {
+                      element: '#incident-table',
+                      intro: 'Here you will find a list of all the current reported incidents. You can search and filter as needed.',
+                      position: 'bottom'
+                    },
+                    {
+                      element: '#ir-link',
+                      intro: 'Click on this link to see more detailed information about this incident.',
+                      position: 'bottom'
+                    },
+                    {
+                      element: '#company-link',
+                      intro: 'See information related to this company.',
+                      position: 'bottom'
+                    },
+                    {
+                      element: '#lead-link',
+                      intro: 'Information about this EFT Lead',
+                      position: 'bottom'
+                    },
+                    {
+                      element: '#team-link',
+                      intro: 'Information about this EFT Team',
+                      position: 'bottom'
+                    },
+                    {
+                      element: '.nav',
+                      intro: 'You can navigate to different sections using these links..',
+                      position: 'right'
+                    },
+                ]
+            });
+
+            if (confirm('Would you like to start the guided tour?')) {
+                introguide.start();
+            } else {
+                
+            }
         });
     </script>
 {% endblock header %}
 
 {% block buttons %}
-    <a href="{% url 'kpi_create' %}"><button class="btn btn-primary btn-sm" type="button">Create</button></a>
+    <a href="{% url 'kpi_create' %}" id="create-but"><button class="btn btn-primary btn-sm" type="button">Create</button></a>
 {% endblock buttons %}
 
 {% block content %}
@@ -30,11 +77,11 @@
                 {% for incident in incidents %}
                     <tr>
                         <td class="blue_cell">{{ incident.date }}</td>
-                        <td><a href="{% url 'kpi_detail' incident.id %}">{{ incident.ir_num }}</a></td>
-                        <td><a href="{% url 'kpi_company' incident.company.id %}">{{ incident.company }}</a></td>
-                        <td><a href="{% url 'kpi_eftdetail' incident.eft_lead.id %}">{{ incident.eft_lead }}</a></td>
-                        <td><a href="{% url 'kpi_team' incident.team_name.id %}">{{ incident.team_name }}</a></td>
-                        <td class="blue_cell">{{ incident.incident }}</td>
+                        <td><a href="{% url 'kpi_detail' incident.id %}" id="ir-link">{{ incident.ir_num }}</a></td>
+                        <td><a href="{% url 'kpi_company' incident.company.id %}" id="company-link">{{ incident.company }}</a></td>
+                        <td><a href="{% url 'kpi_eftdetail' incident.eft_lead.id %}" id="lead-link">{{ incident.eft_lead }}</a></td>
+                        <td><a href="{% url 'kpi_team' incident.team_name.id %}" id="team-link">{{ incident.team_name }}</a></td>
+                        <td class="blue_cell" id="incident-link">{{ incident.incident }}</td>
                     </tr>
                 {% endfor %}
             </tbody>

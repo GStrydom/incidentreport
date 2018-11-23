@@ -6,7 +6,8 @@ import datetime
 
 
 class KPICompany(models.Model):
-    name = models.CharField(max_length=255)
+    name        = models.CharField(max_length=255)
+    company_pic = models.ImageField(upload_to='profile_pics/', null=True)
 
     def __str__(self):
         return self.name
@@ -16,7 +17,7 @@ class KPILead(models.Model):
     name            = models.CharField(max_length=255)
     position        = models.CharField(max_length=255)
     company         = models.ForeignKey(KPICompany)
-    profile_pic     = models.ImageField(upload_to='profile_pics/')
+    profile_pic     = models.ImageField(upload_to='profile_pics/', null=True)
 
     def __str__(self):
         return self.name
@@ -26,6 +27,7 @@ class KPITeam(models.Model):
     name            = models.CharField(max_length=100)
     eft_lead        = models.ForeignKey(KPILead)
     company         = models.ForeignKey(KPICompany)
+    team_pic        = models.ImageField(upload_to='profile_pics/', null=True)
 
     def __str__(self):
         return self.name

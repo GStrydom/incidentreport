@@ -27,6 +27,8 @@ urlpatterns = [
 
     url(r'^chaining/', include('smart_selects.urls')),
 
+    url(r'^duplicate/$', views.kpi_duplicate, name='kpi_duplicate'),
+
     url(r'^help/$', views.kpi_help, name='kpi_help'),
 
 ]  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

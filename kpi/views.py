@@ -53,16 +53,18 @@ def eftteam_detail(request, eftteam_id):
     context['eftteam'] = KPITeam.objects.get(pk=eftteam_id)
     context['eftleads'] = KPILead.objects.filter(kpiteam__id=eftteam_id)
     context['incidents'] = KPIIncidentReport.objects.filter(team_name__id=eftteam_id)
+    context['team_picture'] = context['eftteam'].profile_pic.url
     return render(request, 'templates/eftteam.html', context)
 
 
 @login_required(login_url='/')
 def kpi_company(request, company_id):
     context = dict()
-    context['company'] = KPITeam.objects.get(pk=company_id)
+    context['company'] = KPICompany.objects.get(pk=company_id)
     context['eftleads'] = KPILead.objects.filter(company__id=company_id)
     context['teams'] = KPITeam.objects.filter(company__id=company_id)
     context['incidents'] = KPIIncidentReport.objects.filter(company__id=company_id)
+    context['company_picture'] = context['company'].profile_pic.url
     return render(request, 'templates/eft_company.html', context)
 
 
@@ -74,6 +76,10 @@ def kpi_create(request):
             incident = KPIIncidentReport()
             incident.date = form.cleaned_data['date']
             incident.ir_num = form.cleaned_data['ir_num']
+
+            if KPIIncidentReport.objects.get(ir_num=incident.ir_num):
+                return redirect('kpi_duplicate')
+
             incident.company = form.cleaned_data['company']
             incident.eft_lead = form.cleaned_data['eft_lead']
             incident.team_name = form.cleaned_data['team_name']
@@ -82,6 +88,7 @@ def kpi_create(request):
             incident.hours_deducted = form.cleaned_data['hours_deducted']
             incident.reportable = form.cleaned_data['reportable']
             incident.reason = form.cleaned_data['reason']
+
             incident.save()
             return redirect('kpi_home_page')
         else:
@@ -130,6 +137,11 @@ def kpi_delete(request, incident_id):
     incident = get_object_or_404(KPIIncidentReport, pk=incident_id)    
     incident.delete()
     return redirect('kpi_home_page')
+
+
+@login_required(login_url='/')
+def kpi_duplicate(request):
+    return render(request, 'templates/kpi_duplicate.html')
 
 
 @login_required(login_url='/')

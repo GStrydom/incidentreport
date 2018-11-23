@@ -2,30 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e14373a-f154-445b-8a14-10538288ed4d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kpi/static/assets/img/profile_pics/Greg Office 1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/img/profile_pics/Greg Office 1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/img/profile_pics/Greg_Office_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/img/profile_pics/Greg_Office_1_3p4be7Q.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/img/profile_pics/Greg_Office_1_WtW8sNI.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/img/profile_pics/Greg_Office_1_uuXrscZ.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/img/profile_pics/WOS8fDUp0Xo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/img/profile_pics/defaultprofile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/img/profile_pics/defaultprofile_9fzMM7n.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/img/profile_pics/unnamed.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/img/profile_pics/unnamed_SpOgH03.jpg" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kpi/templates/kpi_duplicate.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mydatabase" afterPath="$PROJECT_DIR$/mydatabase" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kpi/migrations/0003_auto_20181107_1243.py" afterPath="$PROJECT_DIR$/kpi/migrations/0003_auto_20181107_1243.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kpi/static/assets/css/Article-Clean.css" afterPath="$PROJECT_DIR$/kpi/static/assets/css/Article-Clean.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kpi/static/assets/css/Article-Dual-Column.css" afterPath="$PROJECT_DIR$/kpi/static/assets/css/Article-Dual-Column.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kpi/templates/base.html" afterPath="$PROJECT_DIR$/kpi/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kpi/templates/eftlead.html" afterPath="$PROJECT_DIR$/kpi/templates/eftlead.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kpi/templates/index.html" afterPath="$PROJECT_DIR$/kpi/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kpi/templates/registration/login.html" afterPath="$PROJECT_DIR$/kpi/templates/registration/login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kpi/models.py" afterPath="$PROJECT_DIR$/kpi/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gregweb/settings.py" afterPath="$PROJECT_DIR$/gregweb/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kpi/static/assets/css/styles-index.css" afterPath="$PROJECT_DIR$/kpi/static/assets/css/styles-index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kpi/todo.txt" afterPath="$PROJECT_DIR$/kpi/todo.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gregweb/urls.py" afterPath="$PROJECT_DIR$/gregweb/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kpi/urls.py" afterPath="$PROJECT_DIR$/kpi/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kpi/views.py" afterPath="$PROJECT_DIR$/kpi/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -61,61 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kpi/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="2145">
-              <caret line="123" column="22" selection-start-line="123" selection-start-column="22" selection-end-line="123" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kpi/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2031746" vertical-offset="292" max-vertical-offset="930">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kpi/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1005">
-              <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gregweb/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1709" max-vertical-offset="2145">
-              <caret line="137" column="25" selection-start-line="137" selection-start-column="25" selection-end-line="137" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kpi/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="156" max-vertical-offset="555">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="eftlead.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kpi/templates/eftlead.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="645">
-              <caret line="19" column="64" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
+            <state vertical-scroll-proportion="0.60126585" vertical-offset="0" max-vertical-offset="960">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -135,10 +64,11 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/kpi/templates/base.html" />
-        <option value="$PROJECT_DIR$/kpi/views.py" />
-        <option value="$PROJECT_DIR$/kpi/urls.py" />
         <option value="$PROJECT_DIR$/kpi/templates/eftlead.html" />
         <option value="$PROJECT_DIR$/gregweb/settings.py" />
+        <option value="$PROJECT_DIR$/kpi/urls.py" />
+        <option value="$PROJECT_DIR$/kpi/templates/kpi_duplicate.html" />
+        <option value="$PROJECT_DIR$/kpi/views.py" />
         <option value="$PROJECT_DIR$/kpi/models.py" />
       </list>
     </option>
@@ -147,10 +77,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
-    <option name="y" value="-4" />
-    <option name="width" value="1374" />
-    <option name="height" value="776" />
+    <option name="width" value="779" />
+    <option name="height" value="767" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -178,7 +106,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -197,8 +124,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gregweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="incidentreport" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kpi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -468,19 +410,23 @@
       <created>1542791058711</created>
       <updated>1542791058711</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Commit">
+      <created>1542880830462</created>
+      <updated>1542880830462</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1374" height="776" extended-state="6" />
+    <frame x="0" y="0" width="779" height="767" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21794872" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21887825" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32826748" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21827795" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2989378" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21076924" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.168429" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21428572" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -522,14 +468,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kpi/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1088">
-          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kpi/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="374">
@@ -960,48 +898,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kpi/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1005">
+        <state vertical-scroll-proportion="0.47818792" vertical-offset="300" max-vertical-offset="1005">
           <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kpi/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="156" max-vertical-offset="555">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kpi/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="2145">
-          <caret line="123" column="22" selection-start-line="123" selection-start-column="22" selection-end-line="123" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kpi/templates/eftlead.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="645">
-          <caret line="19" column="64" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gregweb/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1709" max-vertical-offset="2145">
+        <state vertical-scroll-proportion="0.8578199" vertical-offset="1512" max-vertical-offset="2145">
           <caret line="137" column="25" selection-start-line="137" selection-start-column="25" selection-end-line="137" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kpi/templates/eftlead.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39597315" vertical-offset="49" max-vertical-offset="645">
+          <caret line="19" column="64" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kpi/templates/kpi_duplicate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03177966" vertical-offset="0" max-vertical-offset="472">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kpi/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8248945" vertical-offset="29" max-vertical-offset="525">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kpi/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2025317" vertical-offset="810" max-vertical-offset="2205">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kpi/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2031746" vertical-offset="292" max-vertical-offset="930">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.60126585" vertical-offset="0" max-vertical-offset="960">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
