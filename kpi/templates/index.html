@@ -57,7 +57,9 @@
 {% endblock header %}
 
 {% block buttons %}
-    <a href="{% url 'kpi_create' %}" id="create-but"><button class="btn btn-primary btn-sm" type="button">Create</button></a>
+    <div id="create-but">
+        <a href="{% url 'kpi_create' %}"><button class="btn btn-primary btn-sm" type="button">Create</button></a>
+    </div>
 {% endblock buttons %}
 
 {% block content %}

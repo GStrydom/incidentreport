@@ -27,9 +27,27 @@
 img {
     display: block;
     margin: auto;
+    width: 100%;
 }
 
 #inc-table {
 	padding-top: 10px;
 	padding-bottom: 10px;
+}
+
+.box {
+	color: white;
+	height: 100%;
+	background-image: url(../img/divback9.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-clip: border-box;
+}
+
+.item {
+	margin-bottom: 20px;
+}
+
+#create-but {
+	margin-bottom: 20px;
 }
