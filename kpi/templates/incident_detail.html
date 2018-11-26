@@ -9,18 +9,53 @@
             })
         })
     </script>
+
+    <script>
+        $(document).ready(function () {
+            var introguide = introJs();
+
+            introguide.setOptions({
+                steps: [
+                    {
+                      element: '#up-button',
+                      intro: 'Click here to update the current information related to the incident.',
+                      position: 'bottom'
+                    },
+                    {
+                      element: '#del-button',
+                      intro: 'Delete the incident from the records database. Note that this cannot be undone.',
+                      position: 'bottom'
+                    },
+                    {
+                      element: '#exp-button',
+                      intro: 'Export this incident to an Excel spreadsheet.',
+                      position: 'bottom'
+                    },
+                ]
+            });
+
+            $("#help-link").click(function () {
+                if (confirm('Would you like to start the guided tour?')) {
+                    introguide.start();
+                } else {
+
+                }
+            })
+
+        });
+    </script>
 {% endblock header %}
 
 {% block content %}
      <div class="row">
         <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
-            <a href="{% url 'kpi_update' incident.id %}"><button class="btn btn-primary btn-sm" type="button">Update</button></a>
+            <a href="{% url 'kpi_update' incident.id %}" id="up-button"><button class="btn btn-primary btn-sm" type="button">Update</button></a>
         </div>
         <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
             <a href="{% url 'kpi_delete' incident.id %}" id="del-button"><button class="btn btn-primary btn-sm" type="button">Delete</button></a>
         </div>
         <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
-            <a href="{% url 'kpi_export' incident.id %}"><button class="btn btn-primary btn-sm" type="button">Export</button></a>
+            <a href="{% url 'kpi_export' incident.id %}" id="exp-button"><button class="btn btn-primary btn-sm" type="button">Export</button></a>
         </div>
     </div>
 

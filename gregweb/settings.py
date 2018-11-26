@@ -23,7 +23,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'base.apps.BaseConfig',
-    'projects.apps.ProjectsConfig',
     'kpi.apps.KpiConfig',
     'smart_selects'
 ]
@@ -43,7 +42,7 @@ ROOT_URLCONF = 'gregweb.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['templates', 'kpi'],
+        'DIRS': ['incidentreport/kpi'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -59,24 +58,24 @@ TEMPLATES = [
 WSGI_APPLICATION = 'gregweb.wsgi.application'
 
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'Sethan$gregweb',
-#         'HOST': 'Sethan.mysql.pythonanywhere-services.com',
-#         'PORT': '3306',
-#         'USERNAME': 'Sethan',
-#         'PASSWORD': 'perfection081*'
-#     }
-# }
-
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'mydatabase'
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'Sethan$gregweb',
+        'HOST': 'Sethan.mysql.pythonanywhere-services.com',
+        'PORT': '3306',
+        'USERNAME': 'Sethan',
+        'PASSWORD': 'perfection081*'
     }
 }
+
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': 'mydatabase'
+#     }
+# }
 
 # DATABASES = {
 #     'default': {
@@ -126,6 +125,8 @@ USE_L10N = True
 USE_TZ = True
 
 STATIC_URL = '/static/'
+
+STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')

@@ -53,7 +53,7 @@ def eftteam_detail(request, eftteam_id):
     context['eftteam'] = KPITeam.objects.get(pk=eftteam_id)
     context['eftleads'] = KPILead.objects.filter(kpiteam__id=eftteam_id)
     context['incidents'] = KPIIncidentReport.objects.filter(team_name__id=eftteam_id)
-    context['team_picture'] = context['eftteam'].profile_pic.url
+    context['team_picture'] = context['eftteam'].team_pic.url
     return render(request, 'templates/eftteam.html', context)
 
 
@@ -76,9 +76,6 @@ def kpi_create(request):
             incident = KPIIncidentReport()
             incident.date = form.cleaned_data['date']
             incident.ir_num = form.cleaned_data['ir_num']
-
-            if KPIIncidentReport.objects.get(ir_num=incident.ir_num):
-                return redirect('kpi_duplicate')
 
             incident.company = form.cleaned_data['company']
             incident.eft_lead = form.cleaned_data['eft_lead']
@@ -134,7 +131,7 @@ def kpi_export(request, incident_id):
 
 @login_required(login_url='/')
 def kpi_delete(request, incident_id):
-    incident = get_object_or_404(KPIIncidentReport, pk=incident_id)    
+    incident = get_object_or_404(KPIIncidentReport, pk=incident_id)
     incident.delete()
     return redirect('kpi_home_page')
 

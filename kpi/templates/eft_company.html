@@ -1,10 +1,8 @@
 {% extends 'base.html' %}
 {% load static %}
-import
+
 {% block header %}
-
 {% endblock header %}
-
 
 {% block content %}
     <div class="article-dual-column">
@@ -19,7 +17,7 @@ import
             <div class="row">
                 <div class="col">
                     <dl>
-                        <dt>EFT LEADS</dt>
+                        <dt>EFT Leads</dt>
                             <dd>
                                 {% for eftlead in eftleads %}
                                     <a href="{% url 'kpi_eftdetail' eftlead.id %}">{{ eftlead }}</a>

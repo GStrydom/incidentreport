@@ -47,11 +47,14 @@
                 ]
             });
 
-            if (confirm('Would you like to start the guided tour?')) {
-                introguide.start();
-            } else {
-                
-            }
+            $("#help-link").click(function () {
+                if (confirm('Would you like to start the guided tour?')) {
+                    introguide.start();
+                } else {
+
+                }
+            })
+
         });
     </script>
 {% endblock header %}

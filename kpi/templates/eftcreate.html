@@ -5,6 +5,76 @@
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script type="text/javascript" src="{% static '/smart-selects/admin/js/chainedfk.js' %}"></script>
     <script type="text/javascript" src="{% static '/smart-selects/admin/js/bindfields.js' %}"></script>
+
+    <script>
+        $(document).ready(function () {
+            var introguide = introJs();
+
+            introguide.setOptions({
+                steps: [
+                    {
+                      element: '#id_date',
+                      intro: 'Here you can enter the date the incident occured. The format should be in Year-Month-Day EG: 2013-06-06',
+                      position: 'right'
+                    },
+                    {
+                      element: '#id_ir_num',
+                      intro: 'This is the incidents unique Incident Record number. EG: IR-001-001',
+                      position: 'right'
+                    },
+                    {
+                      element: '#id_company',
+                      intro: 'The company of the team to which the incident occured. EG: Goss&Balfe. The EFT Lead AND EFT Team select boxes are dependant on the company you choose.',
+                      position: 'right'
+                    },
+                    {
+                      element: '#id_eft_lead',
+                      intro: 'The eft lead of the team to which the incident occured. EG: Sean Poona. Only EFT Leads from the company selected above will be shown.',
+                      position: 'right'
+                    },
+                    {
+                      element: '#id_team_name',
+                      intro: 'The team to which the incident occured. EG: Avengers. Only teams managed by the EFT Lead selected above will be shown.',
+                      position: 'right'
+                    },
+                    {
+                      element: '#id_incident',
+                      intro: 'The type of incident that has occured.',
+                      position: 'right'
+                    },
+                    {
+                      element: '#id_description',
+                      intro: 'Here you can enter a detailed description of what ocuured with the incident.',
+                      position: 'right'
+                    },
+                    {
+                      element: '#id_hours_deducted',
+                      intro: 'The amount of hours that was deducted from the teams toal hours because of the incident.',
+                      position: 'right'
+                    },
+                    {
+                      element: '#id_reportable',
+                      intro: 'Wether or not the incident is reportable to deduct hours.',
+                      position: 'right'
+                    },
+                    {
+                      element: '#id_reason',
+                      intro: 'The reason wether the incident was reportable or not',
+                      position: 'right'
+                    },
+                ]
+            });
+
+            $("#help-link").click(function () {
+                if (confirm('Would you like to start the guided tour?')) {
+                    introguide.start();
+                } else {
+
+                }
+            })
+
+        });
+    </script>
 {% endblock header %}
 
 {% block content %}
