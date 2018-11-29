@@ -43,6 +43,13 @@ img {
 	background-clip: border-box;
 }
 
+.box-team {
+	background-image: url(../img/divback3.jpg);
+	object-fit: cover;
+	background-repeat: no-repeat;
+	background-clip: border-box;
+}
+
 .item {
 	margin-bottom: 20px;
 }

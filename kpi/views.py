@@ -61,9 +61,16 @@ def eftteam_detail(request, eftteam_id):
 def kpi_company(request, company_id):
     context = dict()
     context['company'] = KPICompany.objects.get(pk=company_id)
+
     context['eftleads'] = KPILead.objects.filter(company__id=company_id)
+    context['lead_count'] = len(KPILead.objects.filter(company__id=company_id))
+
     context['teams'] = KPITeam.objects.filter(company__id=company_id)
+    context['team_count'] = len(KPITeam.objects.filter(company__id=company_id))
+
     context['incidents'] = KPIIncidentReport.objects.filter(company__id=company_id)
+    context['inc_count'] = len(KPIIncidentReport.objects.filter(company__id=company_id))
+
     context['company_picture'] = context['company'].company_pic.url
     return render(request, 'templates/eft_company.html', context)
 

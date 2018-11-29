@@ -2,34 +2,36 @@
 {% load static %}
 
 {% block header %}
-    
 {% endblock header %}
 
 
 {% block content %}
-    <div class="article-clean">
+    <div class="article-dual-column">
         <div class="container">
             <div class="row">
-                <div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
+                <div class="col-md-10 offset-md-1">
                     <div class="intro">
                         <h1 class="text-center">{{ eftlead.name }}</h1>
                         <p class="text-center">{{ eftlead.position }}<span class="date">{{ eftlead.company }}</span></p><img class="img-fluid justify-content-center" src="{{ image_url }}" width="150" height="150">
-                        <dl class="row" id="eft-info">
-                            <dt class="col-sm-3">Teams:</dt>
-                                <dd class="col-sm-9">
-                                    {% for team in team_names %}
-                                        <a href="{% url 'kpi_team' team.id %}">{{ team }}</a>
-                                    {% endfor %}
-                                </dd>
-                            <dt class="col-sm-3">Incidents:</dt>
-                                <dd class="col-sm-9">
-                                    {% for incident in incidents %}
-                                        <a href="{% url 'kpi_team' incident.id %}">{{ incident }}</a>
-                                    {% endfor %}
-                                </dd>
-                        </dl>
                     </div>
-                    <div class="text"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <dl>
+                        <dt>Teams:</dt>
+                            <dd>
+                                {% for team in team_names %}
+                                    <a href="{% url 'kpi_team' team.id %}">{{ team }}</a>
+                                {% endfor %}
+                            </dd>
+                        <dt>Incidents:</dt>
+                            <dd>
+                                {% for incident in incidents %}
+                                    <a href="{% url 'kpi_team' incident.id %}">{{ incident }}</a>
+                                {% endfor %}
+                            </dd>
+                    </dl>
                 </div>
             </div>
         </div>
